@@ -9,6 +9,8 @@
   },
   "private": true,
   "dependencies": {
+    "@radixdlt/babylon-gateway-api-sdk":"1.0.0-rc.2.6",
+    "@radixdlt/radix-dapp-toolkit":"0.5.1",
     "@swc/helpers": "0.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
