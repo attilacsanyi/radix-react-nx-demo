@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome radix-react-nx-demo/gi)).toBeTruthy();
+    expect(getByText(/Radix React Nx Demo/gi)).toBeTruthy();
   });
 });

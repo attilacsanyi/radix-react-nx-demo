@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "demo": "nx serve --configuration=production",
+    "lint": "nx lint",
+    "test": "nx test",
+    "ci": "nx run-many -t lint test build",
+    "format": "nx format:write --all"
   },
   "private": true,
   "dependencies": {
