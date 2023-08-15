@@ -8,7 +8,6 @@
           "build",
           "lint",
           "test",
-          "e2e"
         ],
         "accessToken": "YmUxMTYzOTktMjZiYS00YTNmLWJkN2EtYzNkZWNmM2U2MzEyfHJlYWQtd3JpdGU="
       }
@@ -21,12 +20,6 @@
       ],
       "inputs": [
         "production",
-        "^production"
-      ]
-    },
-    "e2e": {
-      "inputs": [
-        "default",
         "^production"
       ]
     },
