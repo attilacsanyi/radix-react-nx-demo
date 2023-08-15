@@ -1,0 +1,78 @@
+{
+  "name": "radix-react-nx-demo",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "./src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/radix-react-nx-demo"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "radix-react-nx-demo:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "radix-react-nx-demo:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "radix-react-nx-demo:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "radix-react-nx-demo:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "radix-react-nx-demo:build:development"
+        },
+        "production": {
+          "buildTarget": "radix-react-nx-demo:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["coverage/radix-react-nx-demo"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "coverage/radix-react-nx-demo"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["./src/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "radix-react-nx-demo:build"
+      }
+    }
+  },
+  "tags": []
+}
