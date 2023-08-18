@@ -30,8 +30,7 @@ export const App = () => {
         <radix-connect-button />
       </div>
 
-      <section
-      className="my-4">
+      <section className="my-4">
         <h2>1. Colors</h2>
         <ul>
           <li className="text-primary">Primary</li>
