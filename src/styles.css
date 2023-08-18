@@ -1,5 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
-.header {
-    display: flex;
-    justify-content: space-between;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+
+    /* Tailwind CSS */
+    --color-primary: 54 209 220; /* #36d1dc */
+
+    /*
+     * Radix Development Toolkit
+     * https://github.com/radixdlt/radix-dapp-toolkit#styling
+     */
+    --radix-connect-button-border-radius: 12px;
+  }
 }
