@@ -24,7 +24,7 @@ export const App = () => {
   rdt.buttonApi.setTheme('black');
 
   return (
-    <div className="container m-auto">
+    <div className="container mx-auto px-4">
       <div className="flex items-center justify-between [--radix-connect-button-width:100px] sm:[--radix-connect-button-width:138px]">
         <h1 className="font-bold text-primary">Radix React Nx Demo</h1>
         <radix-connect-button />
