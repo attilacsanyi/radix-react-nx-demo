@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@commitlint/config-conventional",
+    "@merkle-open/commitlint-conventional-changelog"
+  ]
+}
