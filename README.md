@@ -1,11 +1,13 @@
-**[Radix](https://www.radixdlt.com/)** Login Demo in a **[React](https://react.dev/)** standalone **[Nx](https://nx.dev/)** repo.
+![Vercel](https://vercelbadge.vercel.app/api/attilacsanyi/radix-react-nx-demo)
+
+**[Radix](https://www.radixdlt.com/)** Login Demo in a **[React](https://react.dev/)** standalone **[Nx](https://nx.dev/)** repo, deployed on **[Vercel](https://radix-react-nx-demo.vercel.app/)**
 
 Playing with [Scrypto](https://developers.radixdlt.com/#get-started) and [Radically Different DeFi™](https://www.radixdlt.com/) using [RCNet v2](https://www.radixdlt.com/blog/phase-2-of-rcnet-v2-begins) inspired by **[RadFi 2022](https://www.radixdlt.com/radfi)**
 
 ## Getting started
 
 1. `pnpm i`
-1. `pnpm run start` 
+1. `pnpm run start`
 
 ## Resources
 
