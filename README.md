@@ -1,4 +1,4 @@
-![Vercel](https://vercelbadge.vercel.app/api/unixsocial/unix)
+![Vercel](https://vercelbadge.vercel.app/api/attilacsanyi/radix-react-nx-demo)
 
 **[Radix](https://www.radixdlt.com/)** Login Demo in a **[React](https://react.dev/)** standalone **[Nx](https://nx.dev/)** repo, deployed on **[Vercel](https://radix-react-nx-demo.vercel.app/)**
 
